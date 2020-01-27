@@ -7,11 +7,11 @@ const calculator = (() => {
 
   const multiply = (a, b) => a * b;
 
-  return { 
-    add, 
+  return {
+    add,
     subtract, 
-    divide, 
-    multiply, 
+    divide,
+    multiply,
   };
 })();
 
