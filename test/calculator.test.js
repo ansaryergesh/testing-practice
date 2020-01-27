@@ -11,13 +11,12 @@ test('substracting two numbers', () => {
 });
 
 test('dividing two numbers', () => {
-  let res = calculator.divide(12, 2); 
+  const res = calculator.divide(12, 2);
   expect(res).toBe(6);
 });
 
 
-test('multiplying two numbers',() =>{
-  const res = calculator.multiply(3, 2); 
+test('multiplying two numbers', () =>{
+  const res = calculator.multiply(3, 2);
   expect(res).toBe(6);
 });
-
