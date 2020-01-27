@@ -4,8 +4,7 @@ const ceaser = (str, key) => {
     const symb = str.charCodeAt(i);
     if (str[i] === str[i].toUpperCase()) {
       result += String.fromCharCode(((symb - 65 + key) % 26) + 65);
-    }
-    else {
+    } else {
       result += String.fromCharCode(((symb - 97 + key) % 26) + 97);
     }
   }

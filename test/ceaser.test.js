@@ -1,4 +1,4 @@
-import ceaser from "../src/ceaser";
+import ceaser from '../src/ceaser';
 
 
 test('simple word', () => {

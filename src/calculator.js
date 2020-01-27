@@ -9,7 +9,7 @@ const calculator = (() => {
 
   return {
     add,
-    subtract, 
+    subtract,
     divide,
     multiply,
   };
