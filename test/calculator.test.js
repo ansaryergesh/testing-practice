@@ -1,12 +1,12 @@
 import calculator from '../src/calculator';
 
 test('adding two numbers', () => {
-  const res = calculator.add(3, 2); 
+  const res = calculator.add(3, 2);
   expect(res).toBe(5);
 });
 
 test('substracting two numbers', () => {
-  const res = calculator.subtract(3, 2); 
+  const res = calculator.subtract(3, 2);
   expect(res).toBe(1);
 });
 
@@ -16,7 +16,7 @@ test('dividing two numbers', () => {
 });
 
 
-test('multiplying two numbers', () =>{
+test('multiplying two numbers', () => {
   const res = calculator.multiply(3, 2);
   expect(res).toBe(6);
 });
